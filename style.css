@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+}
+
+.container{
+    max-width: 1179px;
+    max-height: 41px;
+    margin: 0 auto;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.color{
+    color: rgba(31, 21, 52, .5);
+}
+
+ul{
+    list-style: none;
+}
+
+.content{
+    display: flex;
+}
+
+.katta{
+    color: rgba(0, 0, 0, 1);
+    font-size: 45px;
+    width: 421.21px;
+    height: 98.25px;
+    margin: 50px 0px 20px;
+}
+
+.kichik{
+    color: rgba(125, 121, 135, 1);
+    width: 440px;
+    height: 84.21px;
+}
+
+button{
+   width: 197.75px;
+   height: 49.12px;
+   border-radius: 55px;
+   transition: 2s;
+}
+
+button:hover{
+    background-color:rgb(10, 143, 245);
+    color: white;
+    border: 1px solid rgb(10, 107, 243);
+    transition: 3s;
+}
+
+h1{
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.textrasm1{
+    display: flex;align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    height: 60.8px;
+    color: rgba(125, 121, 135, 1);
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.rasm{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textrasm{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(231, 231, 231, 1);
+    border-radius: 20px;
+    text-align: center;
+}
+.textrasm1{
+    width: 80%;
+    height: 380px;
+}
+
+.textrasm:hover{
+    background-color: rgba(90, 152, 242, 1); 
+    color: aliceblue;
+    transition: .3s;
+}
+
+.cards>p{
+    color: rgba(0, 0, 0, 1);
+}
+span{
+    color: rgba(125, 121, 135, 1);
+    font-size: 16px;
+}
+
+.Lm{
+    width: 200px;
+    height: 56.74px;
+    color: rgba(69, 143, 246, 1);
+    border: 1px solid;
+    margin-top: 33px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 500px;
+}
+
+.image{
+    margin: 25px 0px 25px 30px;
+}
